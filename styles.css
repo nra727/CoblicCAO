@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+body {
+    background-color: #E3E3E3;
+}
+
+header {
+    background-image: url("hogwarts.jpg");
+    background-attachment: fixed;
+    background-position: 0 -180px;
+    background-size: cover;
+    color: #fff;
+    height: 300px;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+.wrapper {
+    margin: 0 auto;
+    width: 960px;
+}
